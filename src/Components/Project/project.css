@@ -1,0 +1,12 @@
+.project_container{
+    opacity: 99%;
+    max-width: 95rem;
+    padding: 2rem;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+.project_images{
+    margin:1rem
+}
