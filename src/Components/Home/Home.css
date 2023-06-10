@@ -97,7 +97,6 @@
   }
   .grid-1{
     margin-bottom: 0;
-    margin: 1rem;
     border-radius: 3rem;
     grid-column: 1/ span 3;
     grid-row: 1/ span 2;
@@ -162,9 +161,27 @@
   } 
   
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     #features {
       flex-direction: column;
+    }
+    .grid_section{
+      display: block;
+      margin-top: 2rem;
+    }
+    .grid-img{
+      height: 100%;
+      width: 100%;
+      object-fit:cover
+    }
+    .grid-1{
+      margin: 1rem;
+      display:block;
+      text-align: center;
+      justify-content: center;
+    }
+    .home_p{
+      margin-left: 10rem;
     }
   }
   

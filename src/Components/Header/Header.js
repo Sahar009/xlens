@@ -37,9 +37,9 @@ const Header = () => {
       </div>
       <div className="menu-icons" onClick={toggleMenu}>
         {showMenu ? (
-          <RiCloseLine color="#fff" size={30} />
+          <RiCloseLine color="#7c900b" size={30} />
         ) : (
-          <AiOutlineBars color="#fff" size={27} />
+          <AiOutlineBars color="#7c900b" size={27} />
         )}
       </div>
     </div>

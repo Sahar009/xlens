@@ -25,7 +25,7 @@ const Home = () => {
           <AiFillBehanceCircle size={40} className='vid-icon'/>
         </video>
         </div>
-        <div className='container'> 
+        
           <div className='grid_section'>
             <div className='grid-1'>
               
@@ -37,7 +37,7 @@ We develop exceptional solutions and bring new values for your projects.</p>
             </div>
             
 
-          </div>
+         
         </div>
         
       <div className="container features">
