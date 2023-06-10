@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:7
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:6,
+index-1.ts
+#EXTINF:6,
+index-2.ts
+#EXTINF:6,
+index-3.ts
+#EXTINF:6,
+index-4.ts
+#EXTINF:6,
+index-5.ts
+#EXTINF:1,
+index-6.ts
+#EXT-X-ENDLIST

@@ -27,7 +27,7 @@ const Subscribe = () => {
             <FaTwitter />
           </div> */}
           <div className="social-icon">
-            <FaInstagram />
+           <a  href="https://instagram.com"><FaInstagram /></a> 
           </div>
         </div>
       </div>

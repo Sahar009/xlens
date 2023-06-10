@@ -6,8 +6,6 @@ const Awards = () => {
   return (
     <>
       <section className='awards'>
-        
-
           <div className='grid_award'>
             {awards.map((val, index) => (
               <div className='box' key={index}>

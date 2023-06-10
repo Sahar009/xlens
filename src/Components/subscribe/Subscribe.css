@@ -71,6 +71,11 @@ form button:hover{
   cursor: pointer;
   transition: all 0.3s;
 }
+.social-icon a{
+  margin: 2rem;
+  padding: 1rem;
+  color: #fff;
+}
 
 .social-icon:hover {
   background: var(--color-main);

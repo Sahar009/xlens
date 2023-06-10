@@ -1,0 +1,126 @@
+.header{
+    height: 7rem;
+    background:transparent;
+    padding: 3rem;
+    display: flex;
+    position: relative;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: center;
+    
+}
+.nav-icon{
+   
+    margin-left: 1rem;
+  }
+
+.header_nav{
+    right: 10rem;
+    align-items: flex-end;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+   
+   
+}
+.logo{
+    margin-left: 22rem;
+}
+
+.header_nav ul{
+    display: flex;
+
+}
+.header_nav ul li{
+    color: var(--color-main);
+    list-style: none;
+    animation: slide-in ease 1s;
+   padding-left: 2rem;
+   font-size: 21px;
+   font-weight: 700;
+}
+.header_nav ul li:hover{
+  color:var(--color-dark);
+  transition: 0.5s ease-in-out;
+}
+
+.logo_container{
+  width: 30rem;
+  height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ padding-left: 1rem;
+  
+  margin-left: 3rem;
+
+
+}
+.logo_container img{
+  width: 80%;
+  height: 100%;
+  object-fit:contain;
+}
+.menu-icons{
+  display: none;
+  position: absolute;
+  right: 2rem;
+
+}
+.header_nav_mobile{
+  display: none;
+}
+@keyframes slide-in {
+    0% {
+      transform: translateX(10px);
+    }
+    50% {
+      transform: translateX(-10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+/*medium devices*/
+@media screen and (max-width: 1024px){
+  .header{
+    max-width: 100%;
+    padding-left: 0;
+    text-align: left;
+  }
+  .logo_container{
+    width: 300px;
+  margin-left: 0;
+  }
+  
+}
+.header_nav_mobile_hide{
+  display: none;
+}
+
+/*small devices*/
+@media screen and (max-width: 680px){
+ 
+  .menu-icons{display: block;}
+  .header_nav{
+    display: none;
+  }
+  .header_nav_mobile{
+   text-align: center;
+      display: block;
+      position: absolute;
+      list-style: none;
+      background: var(--color-main);
+      left: 0;
+      top: 80px;
+      width: 100%;
+      transition: all 0.3s;
+      border-top: 1px solid #fff;
+      padding-bottom: 5px;
+    
+  }
+  .header_nav_mobile_hide{
+    display: none;
+  }
+}

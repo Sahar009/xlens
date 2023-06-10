@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
 
 
 * {
@@ -26,6 +28,7 @@
   
     --color-white: #fff;
     --color-dark: #333;
+    --color-black:#000000;
   --color-background:#282c3420;
     --color-main: #7c900b;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -56,14 +59,17 @@ html{
 
 body{
 font-family: "poppins",sans-serif;
-background: var(--color-background);
-color: var(--color-white);
+background:var(--color-white);
+color: var(--color-main);
+/* margin-left: 3rem;
+margin-right: 3rem; */
 /* line-height: 1.7; */
 /* background-image: url(/src/Others/background\ tecture.png); */
 }
 .container {
   width:var(--container-width-lg);
   margin: 0 auto;
+
 }
 
 h1,
@@ -99,7 +105,7 @@ section > h2 {
   color: var(--color-light);
 }
 a {
-  color: var(--color-primary);
+  color: #fff;
   transition: var(--transition);
 
 }

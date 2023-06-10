@@ -1,9 +1,11 @@
 footer {
-    background: linear-gradient(var(--dark-blue), #04113ef1 );
+    background:rgb(0, 0, 0);
     padding: 3rem 0;
     text-align: center;
-    font-size: 0.9rem;
-    margin-top: 7rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    height: 400px;
+    font-family: 'Annie Use Your Telescope', cursive;
 
 }
 
@@ -15,7 +17,7 @@ footer a {
 .footer_logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     display: inline-block;
 }
 
@@ -31,7 +33,7 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 .footer_socials a {

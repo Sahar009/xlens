@@ -3,6 +3,7 @@ import {data} from './asset.js';
 import '../project.css';
 const Project1 = () => {
   return (
+    <div className='container'>
     <div className='project_container'>
         <h1>Project Itunu City Visualization</h1>
         <div>
@@ -15,6 +16,7 @@ const Project1 = () => {
           })}
 
         </div>
+    </div>
     </div>
   )
 }

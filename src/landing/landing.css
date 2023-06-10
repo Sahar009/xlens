@@ -1,0 +1,109 @@
+.landing {
+    width: 100vw;
+    margin: 0;
+    height: 90vh;
+    position: relative;
+   filter: brightness(30%);
+   z-index: -1;
+    background:url('../Components/Others/images/home2.jpg');
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.5s ease;
+  }
+
+  .header-left  {
+    margin: 3rem 0;
+    color: var(--color-white);
+    width: 70%;
+    text-align: center;
+    z-index: 1;
+  }
+  .header h1 span {
+    display: block;
+  }
+  
+  h1 span:nth-child(1) {
+    font-weight: 800;
+  }
+  
+  h1 span:nth-child(2),
+  h1 span:nth-child(3) {
+    font-weight: 100;
+  }
+  
+  .header h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 1px;
+    background: var(--color-white);
+  }
+  
+  @media screen and (min-width: 600px) {
+    .slide img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .slide img {
+    height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    text-align: center;
+    top: 23rem;
+    left: 50%;
+    opacity: 0;
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    animation: slide-up 1s ease 0.5s;
+    animation-fill-mode: forwards;
+    /* visibility: hidden; */
+   
+  }
+  h2 {
+    font-size: 4.5rem;
+  }
+  @keyframes slide-up {
+    0% {
+      visibility: visible;
+      top: 23rem;
+    }
+    100% {
+      visibility: visible;
+      top: 17rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content {
+      width: 80%;
+    }
+  }
+  
+  .content > * {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .current {
+    opacity: 1;
+    transform: translateX(0);
+  }

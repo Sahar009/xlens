@@ -10,12 +10,14 @@ import Project1 from './Components/Project/project1/Project1';
 import Project2 from './Components/Project/project2/Project2.js';
 import Home from './Components/Home/Home';
 import './App.css'
+import Laanding from './landing/Laanding';
 function App() {
   return (
     <BrowserRouter>
     <div className='.App'>
       <Header/>
-      <Nav/>
+      {/* <Laanding/> */}
+      {/* <Nav/> */}
       <Routes>
       <Route path='/' element={ <Home/>}/>
         <Route path='Projects' element={ <Gallery/>}/>

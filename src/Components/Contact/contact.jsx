@@ -5,7 +5,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const contact = () => {
   return (
-    <section id='contact'>
+    <section>
      
       <h5 className='contact_text'>Get In Touch</h5>
       <h2 className='contact_text2'> Contact Us</h2>
@@ -32,7 +32,7 @@ const contact = () => {
 
 
             <input type="email"name='email' placeholder='Your Email' required />
-            <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+            <textarea name="message" rows="6" placeholder='Your Message' required></textarea>
             <button type='submit' className='btn '>Send Message</button>
         </form>
       </div>

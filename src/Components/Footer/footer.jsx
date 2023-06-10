@@ -8,7 +8,7 @@ import logo from '../Others/images/footer5.png'
 
 const footer = () => {
   return (
-    <footer>
+    <footer >
       <a href="#"className='footer_logo'>
         <img  src={logo}/>
       </a>

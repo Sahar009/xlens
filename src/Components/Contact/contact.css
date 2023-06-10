@@ -1,16 +1,17 @@
 .contact_text{
-    color:var(--color-main)
+    color:var(--color-main);
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 .contact_text2{
-    color:var(--dark-blue);
+    color:var(--color-dark);
+    font-family: 'Annie Use Your Telescope', cursive;
 }
 
 
 .container.contact_container {
     width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 30% 55%;
     position: relative;
 
 }
@@ -22,15 +23,16 @@
 }
 
 .contact_option {
-    background: var(--dark-blue);
-    padding: 1.2rem;
+    background: var(--color-dark);
+    padding: 1rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 .contact_option:hover{
-    background: var(--color-main);
+    background: transparent;
+  color:var(--color-dark); ;
     border-color: var(--color-primary);
 }
 
@@ -43,7 +45,7 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.9rem ;
-    color: white;
+    color: var(--color-main);
 }
 .contact_option  h5{
     color: var(--color-light);
@@ -55,6 +57,7 @@ form */
 form {
     display: flex;
     flex-direction: column;
+  
    
 }
 

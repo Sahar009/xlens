@@ -11,6 +11,7 @@ import Img8 from '../Others/images/img8.jpg'
 import vid1 from '../Others/images/vid2.mp4'
 import { MdOutlineDoubleArrow } from 'react-icons/md'
 import { Link } from 'react-router-dom';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 
 const Gallery = () => {
@@ -61,7 +62,7 @@ const Gallery = () => {
       </div>
 
       
-   
+      <div className='arrow'> <h1>Scroll Up  <HiOutlineArrowNarrowRight className='nav-icon' size={30} width={50} color='#819f08'/> </h1></div>
       
     </div>
   )

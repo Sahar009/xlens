@@ -8,5 +8,23 @@
 }
 
 .project_images{
-    margin:1rem
+    margin:1rem;
+    
 }
+.project_images img{
+    width: 100%;
+}
+
+
+
+/*small devices*/
+@media screen and (max-width: 680px){
+    .container {
+      width: var(--container-width-sm);
+    }
+    .project_images{
+        max-width: 100%;
+    }
+    
+  }
+  
